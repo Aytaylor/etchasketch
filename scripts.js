@@ -19,7 +19,6 @@ function makeRows(rows, cols) {
     }));
 };
 
-
 function resetPrompt() {
     let resetInput = parseInt(prompt("Enter how many rows to generate. (Between 1-100)"));
     return resetInput;
